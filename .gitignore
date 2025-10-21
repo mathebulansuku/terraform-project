@@ -1,6 +1,5 @@
 .terraform
 .terraform.lock.hcl
-# SSH Keys
 *.pem
 *.ppk
 id_rsa

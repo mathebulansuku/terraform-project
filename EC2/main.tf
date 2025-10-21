@@ -25,7 +25,7 @@ resource "aws_instance" "app-server" {
 
 resource "aws_key_pair" "app-key" {
   key_name   = "app-key"
-  public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMp0KDZYUUqNiev+88QhsAEhmAIFGuyOwcDUz5HZRs+o ubuntu@ip-172-31-10-138"
+  public_key = ""
 }
 
 
